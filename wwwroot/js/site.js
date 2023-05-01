@@ -12,7 +12,7 @@ window.onload = async () => {
   let todoItems = xmlDoc.getElementsByTagName("TodoItem");
   for (let i = 0; i < todoItems.length; i++) {
     let todoItem = todoItems[i];
-    console.log(todoItem);
+    //console.log(todoItem);
     console.log(
       "Id : " + todoItem.getElementsByTagName("TodoItemId")[0].textContent
     );
